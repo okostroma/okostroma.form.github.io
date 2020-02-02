@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <title>8a</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+
+        <form action="#" method="post">
+            <div class="title">
+            <label>Название статьи:</label>
+            <input type="text" name="article" class="article" placeholder="Введите название">
+            <br> 
+             </div>
+
+            <div class="section">
+            <label>Рубрика:</label>
+            <select name="topic" class="topic">
+                <option value="1">програмирование</option>
+                <option value="2">экономика</option>
+                <option value="3">медицина</option>
+                <option value="4">политика</option>
+            </select>
+            
+            </div>
+
+            <div class="publish">
+              <div class="pub">
+                   <p>Публикация:</p>
+              </div>
+              <div class="list">
+                 <div class="line">
+                 <input type="radio" name="radio" id="radio1" class="radio1">
+                 <label for="radio1" class="site">на сайте</label>
+                </div>
+                <div class="line">
+                 <input type="radio" name="radio"  class="radio2" id="radio2">
+                 <label for="radio2">в журнале</label>
+                </div>
+
+                 <div class="line">
+                 <input type="radio" name="radio" class="radio3" id="radio3">
+                 <label for="radio3">на сайте и в журнале</label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="box">
+               <label for="comments" class="comments">Разрешить комментарии:</label>
+               <input type="checkbox" name="comments" id="comments" class="checkbox">
+            </div>
+            
+       
+
+            <label>Текст статьи:</label> <br>
+            <textarea name="artictext" class="artictext" cols="75" rows="10" placeholder="Ваша статья"></textarea> <br>
+            <input type="submit" value="Опубликовать">
+
+
+
+
+            
+        </form>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
